@@ -1,0 +1,369 @@
+<style>
+
+a.marge:link {
+  color:#0090FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.marge:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.marge:hover {
+  font-family:sans-serif;
+  color: #0090FF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.marge:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+a.pages:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.pages:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.pages:hover {
+  font-size:120%;
+  color: black;
+  background-color: transparent;
+  text-decoration: underline; 
+    
+}
+
+a.pages:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.pages{
+    background-color: white;
+    
+}
+.logo{
+    margin-left: 50px;
+}
+#t01{
+    padding-top: 40px;
+    margin-left:650px;
+    border: none;
+    float:left;
+}
+
+#t03{
+    padding-top: 40px;
+    margin-left:100px;
+    border: none;
+    float:left;
+   
+}
+
+#t04{
+    padding-top: 40px;
+    margin-left:100px;
+    border: none;
+    float:left;
+}
+#t05{
+    padding-top: 40px;
+    margin-left:100px;
+    border: none;
+    float:left;
+}
+
+.marges{
+    background-color:white;
+}
+#t02{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: none;
+    padding-bottom: none;
+    border: none;
+}
+.espace{
+    background-color: #0090FF;
+    text-align: center;
+    padding-left:6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    color:white;
+}
+
+.categories{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: none;
+    background-image:url(images/barbie.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family:Arial, ArialBlack, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.categories1{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: none;
+    background-image:url(images/other8.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family:Arial, ArialBlack, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.categories2{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: none;
+    background-image:url(images/car.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    font-family:Arial, ArialBlack, sans-serif;
+    font-size: 30px;
+}
+.categories3{
+    padding-left:120px;
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border: none;
+    background-image:url(images/homecar.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    font-family:Arial, ArialBlack, sans-serif;
+    font-size: 30px;
+}
+
+
+div.galleryboys {
+  margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 180px;
+}
+
+div.galleryboys:hover {
+  border: 1px solid #777;
+}
+
+div.galleryboys img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+    
+  padding: 70px;
+  text-align: center;
+  width: 190px;
+  height: 100px;
+  transition: width 1.5s, height 1s;
+    
+}
+
+div.desc:hover {
+  width: 230px;
+  height: auto;
+}
+
+div.gallery {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 20px;
+  border: none;
+  float: left;
+  width: 355px;
+  height: 530px;
+  background-color: white;
+}
+
+div.gallery:hover {
+  font-size:150%;
+  
+}
+
+div.gallery img {
+  width: 350px;
+  height: 380px;
+}
+
+div.desc {
+    padding-bottom:10px;
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-top: 10px;
+    text-align: center;
+    
+   
+}
+.enpied{
+    padding-top:200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: none;
+}
+
+.homeimages{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: none;
+    
+}
+.contact{
+    margin: none;
+}
+
+
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.bouton{
+    width: 50%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-bottom: 600px;
+    
+}
+textarea {
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+}
+#h1{
+    font-size: 50px;
+}
+
+.col-1 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-2 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.col-3 {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+.img{
+    margin: none;
+    display: block;
+}
+#main{
+    margin: none;
+    display: block;
+}
+
+
+#shoppingtab {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left:100px;
+  margin-top: 100px;
+}
+
+#shoppingtab td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#shoppingtab tr:nth-child(even){background-color: #f2f2f2;}
+
+#shoppingtab tr:hover {background-color: #ddd;}
+
+#shoppingtab th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:black;
+  color: white;
+}
+#text{
+    text-align: center;
+    font-size: 100px;
+}
+
+</style>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>ToyShop</title>
+        <script src="myScript.js"></script>
+    </head>
+    <body>
+        <div class="contact">
+            
+            <div>
+                <img src="images/5.png"style="width:100%; height:600px;">
+            </div>
+            <div>
+                <img src="images/7.png"style="width:100%;height:600px;">
+            </div>
+            <div>
+                <img src="images/6.png"style="width:100%;height:600px;">
+            </div>
+        </div>
+         <div class="form">
+                    <h1 id="h1">CONTACT FORM</h1>
+                  <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+                    <div class="col-1">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="fname" name="fname" placeholder="Your name.."><br>
+                    </div>    
+                    <div class="col-1">
+                        <label for="lastname1">Last Name</label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" id="lastname1" name="lastname1" placeholder="Your last name.."><br>
+                    </div>
+                    <div class="col-1">
+                        <label for="lname">E-mail adress</label>
+                    </div>    
+                    <div class="col-2">    
+                        <input type="text" id="email" name="email" placeholder="Example@ex.com"><br>
+                    </div>
+                    <div class="col-1">
+                        <label for="identity">you are a</label>
+                    </div>
+                    <div class="col-2">
+                        <select id="identity" name="indentity">
+                            <option value="parent">Parent</option>
+                            <option value="instructor">Instructor</option>
+                            <option value="Other">other</option>
+                        </select>
+                    </div>    
+                     <div class="col-3">
+                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                     </div>
+                      <div class="col-3">
+                        <input type="radio" id="agree" name="agree" value=" I have read and agree the terms and conditions"required>
+                            I have read and agreed the terms and conditions
+                        </input>
+                      </div>
+                      <div class="col-3">
+                        <input type="submit" value="submit">
+                      </div>
+                </form>
+         </div>
+         <h1 id="thanks"></h1>
+        <div>
+            <table class="enpied">
+                <tr>
+                    <td><b>informations</b></td>
+                    <td>about</td><br>
+                    <td>contact</td><br>
+                    <td>FaQ</td><br>
+                    <td>blog</td><br>
+                </tr>
+                <tr>
+                    <td><b>Quick links</b></td>
+                    <td>My account</td>
+                    <td>Terms and conditions</td>
+                    <td>shipping and delivery</td>
+                    <td>legal notice</td>
+                </tr>
+                <tr>
+                    <td><b>Get in touch</b></td>
+                    <td><b>+905336442062</b></td>
+                    <td>info@toyshop.com.cy</td>
+                    <td*******></td>
+                    
+                </tr>
+             </table>
+        </div>
+    </body>

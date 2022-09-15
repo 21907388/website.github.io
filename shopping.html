@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toyshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="pages">
+        <table>
+            <td>
+                <a class="logo" href="index.html">
+                    <img src="images/TS.png" alt="logo" style="width:120px;height:120px;">
+                </a>
+            </td>
+
+            <td id="t01">
+                <p><a class="pages" href="index.html">HOME</a></p>
+            </td>
+            <td id="t03">
+                <p><a class="pages" href="items.html">ITEMS</a></p>
+            </td>
+            <td id="t04">
+                <p><a class="pages" href="table.html">SHOPPING</a></p>
+            </td>
+            <td id="t05">
+                <p><a class="pages" href="contact.html">CONTACT US</a></p>
+            </td>
+        </table>
+    </div>
+    <script src="myScript.js"></script>
+    <table id="shoppingtab">
+        <form action="">
+            <tr>
+                <th>Items</th>
+                <th>Properties</th>
+                <th>Number of items</th>
+                <th>Cost ($)</th>
+            </tr>
+        </form>
+        <form action="">
+            <tr>
+                <td>
+                    <input type="checkbox" id="items1" name="items1" value="electric car" />
+                    Electric Car
+                </td>
+                <td>
+                        <input type="radio" name="type1" value="40">
+                        <label for="male">small- 40$</label><br>
+                        <input type="radio" name="type1" value="50">
+                        <label for="female">medium- 50$</label><br>
+                        <input type="radio" name="type1" value="70">
+                        <label for="other">large- 70$</label> <br>
+                        <input type="radio" name="type1" value="100">
+                        <label for="other">chargeable- 100$</label> <br>
+                        <input type="radio" name="type1" value="0">
+                        <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit1" onchange="price1();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price1" >$0</div>
+                    </strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items2" name="items2" value="woody" />
+                    Woody
+                </td>
+                <td>
+                    <input type="radio" name="type2" value="10">
+                    <label for="male">small- 10$</label><br>
+                    <input type="radio" name="type2" value="25">
+                    <label for="female">medium- 25$</label><br>
+                    <input type="radio" name="type2" value="50">
+                    <label for="other">large- 50$</label> <br>
+                    <input type="radio" name="type2" value="90">
+                    <label for="other">chargeable- 90$</label> <br>
+                    <input type="radio" name="type2" value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit2" onchange="price2();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price2" >$0</div>
+                    </strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items3" name="items3" value="Robot" />
+                    Robot
+                </td>
+                <td>
+                    <input type="radio" name="type3"  value="30">
+                    <label for="male">small- 30$</label><br>
+                    <input type="radio" name="type3"  value="33">
+                    <label for="female">medium- 33$</label><br>
+                    <input type="radio" name="type3" value="45">
+                    <label for="other">large- 45$</label> <br>
+                    <input type="radio" name="type3"  value="60">
+                    <label for="other">chargeable- 60$</label> <br>
+                    <input type="radio" name="type3"  value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit3" onchange="price3();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price3" >$0</div>
+                    </strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items4" name="items4" value="Toy car" />
+                    Toy car
+                </td>
+                <td>
+                    <input type="radio" name="type4"  value="90">
+                    <label for="male">small- 90$</label><br>
+                    <input type="radio" name="type4"  value="140">
+                    <label for="female">medium- 140$</label><br>
+                    <input type="radio" name="type4"  value="170">
+                    <label for="other">large- 170$</label> <br>
+                    <input type="radio" name="type3"  value="240">
+                    <label for="other">chargeable- 240$</label> <br>
+                    <input type="radio" name="type3"  value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit4" onchange="price4();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price4">$0</div>
+                    </strong></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items5" name="items5" value="Robot car" />
+                    Robot car
+                </td>
+                <td>
+                    <input type="radio" name="type5"  value="40">
+                    <label for="male">small- 40$</label><br>
+                    <input type="radio" name="type5"  value="50">
+                    <label for="female">medium- 50$</label><br>
+                    <input type="radio" name="type5"  value="other60">
+                    <label for="other">large- 60$</label> <br>
+                    <input type="radio" name="type5"  value="80">
+                    <label for="other">chargeable- 80$</label> <br>
+                    <input type="radio" name="type5"  value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit5" onchange="price5();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price5">$0</div>
+                    </strong></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items6" name="items6" value="Teddy Bear II" />
+                    Teddy bear II
+                </td>
+                <td>
+                    <input type="radio" name="type6"  value="40">
+                    <label for="male">small- 40$</label><br>
+                    <input type="radio" name="type6" value="60">
+                    <label for="female">medium- 60$</label><br>
+                    <input type="radio" name="type6"  value="89">
+                    <label for="other">large- 89$</label> <br>
+                    <input type="radio" name="type6"  value="100">
+                    <label for="other">chargeable- 100$</label> <br>
+                    <input type="radio" name="type6"  value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit6" onchange="price6();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price6" >$0</div>
+                    </strong></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items7" name="items7" value="Teddy bear" />
+                    Teddy bear
+                </td>
+                <td>
+                    <input type="radio" name="type7"  value="25">
+                    <label for="male">small- 25$</label><br>
+                    <input type="radio" name="type7"  value="34">
+                    <label for="female">medium- 34$</label><br>
+                    <input type="radio" name="type7"  value="50">
+                    <label for="other">large- 50$</label> <br>
+                    <input type="radio" name="type7"  value="80">
+                    <label for="other">chargeable- 80$</label> <br>
+                    <input type="radio" name="type7" value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit7" onchange="price7();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price7">$0</div>
+                    </strong></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items8" name="items8" value="Car II" />
+                    Car II
+                </td>
+                <td>
+                    <input type="radio" name="type8"value="9">
+                    <label for="male">small- 9$</label><br>
+                    <input type="radio" name="type8"  value="14">
+                    <label for="female">medium- 14$</label><br>
+                    <input type="radio" name="type8"  value="17">
+                    <label for="other">large- 17$</label> <br>
+                    <input type="radio" name="type8" value="24">
+                    <label for="other">chargeable- 24$</label> <br>
+                    <input type="radio" name="type8" value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit8" onchange="price8();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price8" text-align="center">$0</div>
+                    </strong></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items9" name="items9" value="Barbie and Prince" />
+                    Barbie and prince
+                </td>
+                <td>
+                    <input type="radio" name="type9" value="10">
+                    <label for="male">small- 10$</label><br>
+                    <input type="radio" name="type9"  value="20">
+                    <label for="female">medium- 20$</label><br>
+                    <input type="radio" name="type9" value="30">
+                    <label for="other">large- 30$</label> <br>
+                    <input type="radio" name="type9" value="80">
+                    <label for="other">chargeable-80$</label> <br>
+                    <input type="radio" name="type9" value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit9" onchange="price9();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price9" text-align="center">$0</div>
+                    </strong></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="checkbox" id="items10" name="items10" value="metro toy" />
+                    Metro toy
+                </td>
+                <td>
+                    <input type="radio" name="type10"  value="90">
+                    <label for="male">small- 90$</label><br>
+                    <input type="radio" name="type10"  value="92">
+                    <label for="female">medium- 92$</label><br>
+                    <input type="radio" name="type10"  value="100">
+                    <label for="other">large- 100$</label> <br>
+                    <input type="radio" name="type10"  value="110">
+                    <label for="other">chargeable- 110$</label> <br>
+                    <input type="radio" name="type10"  value="0">
+                    <label for="other">none</label>
+                </td>
+                <td>
+                    <select name="time" id="unit10" onchange="price10();">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td bgcolor="#dfe1e1"><strong>
+                        <div id="price10">$0</div>
+                    </strong></td>
+            </tr>
+
+        </form>
+        <tr>
+            <td colspan="2">You have 15 % discount! </td>
+            <td>
+                <button class="bouton" onclick="calculation();">Calculate</button>
+                <p id="sum"></p>
+            </td>
+            <td><div id="total">$0</div></td>
+        </tr>
+    </table>
+    <p id="text"></p>
+    <div>
+        <table class="enpied">
+            <tr>
+                <td><b> informations</b></td>
+                <td>toyshop</td><br>
+                <td>contact</td><br>
+                <td>FaQ</td><br>
+                <td>blog</td><br>
+            </tr>
+            <tr>
+                <td><b>Quick links</b></td>
+                <td>My account</td>
+                <td>Terms and conditions</td>
+                <td>shipping and delivery</td>
+                <td>legal notice</td>
+            </tr>
+            <tr>
+                <td><b>Get in touch</b></td>
+                <td><b>+905336442062</b></td>
+                <td>info@toyshop.com</td>
+                <td*******>
+                    </td>
+
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
